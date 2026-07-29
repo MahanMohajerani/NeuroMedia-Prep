@@ -24,6 +24,24 @@
 <li>ذخیرهٔ هر پردازش در پوشه‌ای زمان‌دار همراه با گزارش JSON</li>
 </ul>
 
+## تصاویر برنامه
+
+### صفحه اصلی
+
+![Main window](assets/screenshots/main-window.png)
+
+### نقاط برش طبیعی
+
+![Natural Cut Points](assets/screenshots/natural-cut-points.png)
+
+### مدیریت زیرنویس
+
+![Subtitle settings](assets/screenshots/subtitle-settings.png)
+
+### لیست خروجی ها
+
+![Device profiles](assets/screenshots/device-profiles.png)
+
 <h2 dir="rtl" align="right">نصب</h2>
 
 <h3 dir="rtl" align="right">نسخهٔ آمادهٔ ویندوز</h3>
