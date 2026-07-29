@@ -25,6 +25,23 @@ It was created for neurofeedback workflows, but its core functions are also usef
 - Save each job in a separate timestamped folder with a JSON manifest
 - Process all media locally without uploading video or subtitle content
 
+## Screenshots
+
+### Main interface
+
+![Main window](assets/screenshots/main-window.png)
+
+### Natural Cut Points workspace
+
+![Natural Cut Points](assets/screenshots/natural-cut-points.png)
+
+### Subtitle management
+
+![Subtitle settings](assets/screenshots/subtitle-settings.png)
+
+### Device profiles
+
+![Device profiles](assets/screenshots/device-profiles.png)
 
 ## Installation
 
