@@ -24,16 +24,6 @@
 <li>ذخیرهٔ هر پردازش در پوشه‌ای زمان‌دار همراه با گزارش JSON</li>
 </ul>
 
-<h2 dir="rtl" align="right">تصاویر برنامه</h2>
-
-<p dir="rtl" align="right">تصاویر رابط کاربری پیش از انتشار عمومی نسخهٔ <code>v1.0.0</code> اضافه می‌شوند.</p>
-
-<pre dir="ltr"><code>assets/screenshots/main-window.png
-assets/screenshots/natural-cut-points.png
-assets/screenshots/subtitle-settings.png
-assets/screenshots/device-profiles.png
-assets/screenshots/first-run-check.png</code></pre>
-
 <h2 dir="rtl" align="right">نصب</h2>
 
 <h3 dir="rtl" align="right">نسخهٔ آمادهٔ ویندوز</h3>
