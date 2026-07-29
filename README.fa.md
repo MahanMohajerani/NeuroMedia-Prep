@@ -29,7 +29,7 @@
 <h3 dir="rtl" align="right">نسخهٔ آمادهٔ ویندوز</h3>
 
 <ol dir="rtl">
-<li>وارد بخش <strong>Releases</strong> مخزن شوید.</li>
+<li>وارد بخش <strong>Releases</strong> شوید.</li>
 <li>آخرین بستهٔ ZIP ویندوز را دانلود کنید.</li>
 <li>تمام فایل‌ها را در یک پوشهٔ عادی استخراج کنید.</li>
 <li>فایل <code>NeuroMedia Prep.exe</code> را اجرا کنید.</li>
