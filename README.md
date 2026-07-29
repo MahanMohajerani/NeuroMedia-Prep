@@ -15,7 +15,7 @@ It was created for neurofeedback workflows, but its core functions are also usef
 - Add no overlap, a custom overlap, or automatically calculated equal-length overlap
 - Review scene changes and subtitle gaps in the **Natural Cut Points** workspace
 - Load, preview, synchronize, split, export, or permanently burn subtitles
-- Support Persian, Arabic, and other Unicode subtitle text
+- Support subtitle files in multiple languages, including English, Persian, Arabic, and other Unicode text.
 - Adjust subtitle font, size, placement, text colour, and outline colour
 - Choose between fast stream-copy cutting and exact re-encoding
 - Export AVI, MP4, MKV, MOV, MPEG, WebM, and WMV
@@ -25,19 +25,6 @@ It was created for neurofeedback workflows, but its core functions are also usef
 - Save each job in a separate timestamped folder with a JSON manifest
 - Process all media locally without uploading video or subtitle content
 
-## Screenshots
-
-Screenshots will be added before the public `v1.0.0` release.
-
-Planned locations:
-
-```text
-assets/screenshots/main-window.png
-assets/screenshots/natural-cut-points.png
-assets/screenshots/subtitle-settings.png
-assets/screenshots/device-profiles.png
-assets/screenshots/first-run-check.png
-```
 
 ## Installation
 
@@ -54,7 +41,7 @@ Do not run the application directly from inside the ZIP archive.
 ### System requirements
 
 - Windows 10 or Windows 11
-- At least **10 GB of free disk space**
+- At least 10 GB of free disk space is recommended for typical video-processing tasks. Large projects may require additional space depending on source duration and output settings.
 - A writable output folder
 - FFmpeg and FFprobe included with the release or configured manually
 
@@ -161,7 +148,7 @@ For critical use, test a short output on the target system before processing a f
 - Cut positions may move to nearby keyframes
 - Cannot permanently burn subtitles
 
-### Exact — re-encode
+### Exact — re-encode (recommended)
 
 - Produces precise cut positions
 - Converts codecs, resolution, pixel format, and audio channels when required
@@ -192,7 +179,7 @@ NeuroMedia Prep can:
 - export matching UTF-8 SRT files, or
 - burn subtitles permanently into Exact-mode outputs.
 
-For Persian, Arabic, and other right-to-left scripts, select a font containing all required characters. Test subtitle appearance on a short output before processing a long video.
+For Persian, Arabic, and other right-to-left scripts, select a font containing all required characters.
 
 ## First-run system check
 
@@ -203,7 +190,7 @@ On first launch, NeuroMedia Prep checks the local installation before opening th
 - FFmpeg input-format and video-decoder support
 - required output encoders
 - output-folder write access
-- at least 10 GB of free disk space
+- 10 GB of free disk space
 - subtitle and Unicode burn-in capability
 - consistency of built-in output profiles
 - persistent application settings
@@ -225,30 +212,6 @@ All processing is performed locally. NeuroMedia Prep does not upload videos, sub
 - Windows 7 is not officially supported.
 - NeuroMedia Prep is a media-preparation utility, not diagnostic or treatment software.
 
-## Reporting problems
-
-Open a GitHub issue and include:
-
-- Windows version
-- NeuroMedia Prep version
-- selected profile and cutting mode
-- source container and codecs
-- subtitle format, when applicable
-- the displayed error
-- the relevant section of the technical log
-
-Do not upload copyrighted, confidential, or identifiable media unless you have permission to share it.
-
-## Contributing
-
-Bug reports, documentation improvements, device-profile corrections, and code contributions are welcome.
-
-A proposed device profile should include:
-
-- a reliable source describing the target system's accepted media,
-- the proposed container and codecs, and
-- a real-device test result when available.
-
 ## License
 
 NeuroMedia Prep source code is released under the [MIT License](LICENSE).
@@ -259,4 +222,3 @@ FFmpeg is a separate project distributed under its own licensing terms. Windows 
 
 Developed by [S. Mahan Mohajerani](https://github.com/MahanMohajerani).
 
-ORCID and LinkedIn are available through the author's GitHub profile.
